@@ -1,0 +1,32 @@
+.block {
+  height: 100%;
+
+  &__type-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__type-list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 12px;
+  }
+
+  &__list-wrapper {
+    margin-top: 5px;
+    padding-right: 4px;
+  }
+
+  &__filters-panel {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 208px repeat(4, calc(23.3% - 205px / 4));
+    grid-auto-flow: column;
+    grid-gap: 12px;
+    max-width: 792px;
+  }
+  &__filters-panel-contacts {
+    grid-template-columns: 208px repeat(2, fit-content(calc(45% - 205px / 2)));
+  }
+}

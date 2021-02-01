@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800');
+@import "./variables";
+
+.pointer {
+  cursor: pointer;
+}
+
+.black-btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  width: 100%;
+
+  &.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: #BFBFBF !important;
+    color: white !important;
+  }
+}
+
+.v-application {
+  font-family: $Montserrat !important;
+}
+
+.material-icons.md-14 {
+  font-size: 14px !important;
+}

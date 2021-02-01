@@ -1,0 +1,14 @@
+.text-row {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+  &__label {
+    color: #7e7e7e;
+    margin-right: 4px;
+  }
+
+  &__value {
+    color: #141414;
+  }
+}

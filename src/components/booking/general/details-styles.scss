@@ -1,0 +1,39 @@
+@import "~@/assets/styles/variables.scss";
+
+.font-simple {
+  font-family: $OpenSans;
+}
+
+.font-bold {
+  font-family: $OpenSans;
+  font-weight: 600;
+}
+
+.details {
+  font-size: 14px;
+
+  &__row {
+    display: grid;
+    grid-template-columns: 15px 1fr;
+    grid-gap: 8px;
+    align-items: center;
+  }
+
+  &__row-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+  }
+
+  &__address {
+    font-size: 14px;
+  }
+
+  &__stops-count {
+    font-size: 14px;
+    margin-left: 10px;
+    color: $grey;
+  }
+}

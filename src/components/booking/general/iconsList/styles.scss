@@ -1,0 +1,13 @@
+.icon-blocks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 13px;
+  justify-content: flex-start;
+}
+
+.icon-block {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  grid-gap: 4px;
+}

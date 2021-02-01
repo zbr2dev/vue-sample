@@ -1,0 +1,20 @@
+// Fonts
+$OpenSans: 'Open Sans', sans-serif;
+$Montserrat: 'Montserrat', sans-serif;
+// Colors
+$black: #141414;
+$grey: #7E7E7E;
+$light-grey: #f2f2f2;
+$orange: #FF5C00;
+$link-color: #0000EE;
+
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 2.5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $light-grey;
+    border-radius: 1px;
+  }
+}

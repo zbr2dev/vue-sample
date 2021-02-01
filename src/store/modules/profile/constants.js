@@ -1,0 +1,9 @@
+export const GET_PROFILE_DETAIL = 'GET_PROFILE_DETAIL';
+export const GET_PROFILE_DETAIL_AVATAR = 'GET_PROFILE_DETAIL_AVATAR';
+export const SET_AVATAR = 'SET_AVATAR';
+export const SET_USER_PROFILE_PHOTO = 'SET_USER_PROFILE_PHOTO';
+export const getMyProfileDetail = 'getMyProfileDetail';
+export const updateAvatar = 'updateAvatar';
+export const putCurrentProfileDetail = 'putCurrentProfileDetail';
+export const a = 1;
+export const getMyProfilePhoto = 'getMyProfilePhoto';

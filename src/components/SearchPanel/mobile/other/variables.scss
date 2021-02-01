@@ -1,0 +1,11 @@
+$card-padding: 16px;
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 16px * 2);
+}
+
+.m-t-auto {
+  margin-top: auto;
+}
